@@ -1,0 +1,29 @@
+H2 In memory DB: 
+=================
+http://localhost:8000/h2-console/
+
+
+Eureka naming server app:
+=========================
+http://localhost:8761/
+
+Curreny Conversion Service App : 
+===============================
+http://localhost:8100/currency-conversion-feign/from/GBP/to/INR/quantity/10
+
+
+Curreny Exchange Service app:
+=============================
+http://localhost:8000/currency-exchange/from/GBP/to/INR
+http://localhost:8001/currency-exchange/from/GBP/to/INR
+
+
+Limit-service app: 
+==================
+http://localhost:8888/limits-service/qa
+http://localhost:8888/limits-service/dev
+http://localhost:8888/limits-service/
+
+Docker image name for Currency Exchange Service :
+==================================================
+ashu16/cxmmv2-currency-exchange-service:0.0.1-SNAPSHOT
